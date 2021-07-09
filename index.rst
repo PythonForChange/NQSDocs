@@ -8,14 +8,23 @@ Natural Quantum Script
 About NQS
 **********
 
-Natural Quantum Script is a...
+Natural Quantum Script is a special domain programming language that aims to simplify the first contact with quantum computing for people who have prior knowledge in quantum circuits, but not in quantum software development.
+
+Scripts written in NQS seek to visually resemble quantum circuits as much as possible. For example:
+
+q0 q1
+X
+H
+.--- X
+c1
+
+NQS is initially based on Qiskit, but seeks to go mainstream in the future. This is an OS project whose initial goal was to make it easier to write basic scripts in Qiskit and to bridge the gap for people who don't dare to delve into quantum computing.
 
 Advantages
 ==========
 
-1. PFCF Language is written 100% in python and allows to write in python. :raw-html:`<br />`
-2. Then, PFCF can improve it itselft. That allows PFCF to get new special commands everyday. :raw-html:`<br />`
-3. PFCF have special eigen commands that simplify the development of code with IBM Qiskit.
+1. NQS is written 100% in python. :raw-html:`<br />`
+2. Scripts written in NQS seek to visually resemble quantum circuits as much as possible.
 
 
 Sofware (for developers)
@@ -32,13 +41,7 @@ Quick Start
 Installation (last stable version)
 **********************************
 
-1. Install pyforchange
-
-    pip install pyforchange ::
-
-2. Import pfcf in your python file
-
-    import pyforchange.pfcf ::
+Under construction
 
 3. Enjoy!
 
@@ -78,6 +81,10 @@ Example
 7. Enjoy!
 
                 
+##################
+UNDER CONSTRUCTION
+##################
+
 ##############
 Style commands
 ##############
